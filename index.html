@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Boom Stack+ — Clean Energy. No Crash.</title>
+<meta name="description" content="Boom Stack+ is a premium sparkling citrus energy drink. Clean energy, focus, and hydration — powered by the Impulso Matrix™. Pre-order now." />
+<meta property="og:title" content="Boom Stack+ — Clean Energy. No Crash." />
+<meta property="og:description" content="Sparkling citrus performance energy powered by the Impulso Matrix™. Pre-order now — make the list." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/d0ecd0e5-8af9-4e2e-b53f-8b86d7bc16ae.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="canonical" href="https://www.boomstackplus.com/" />
+<meta property="og:url" content="https://www.boomstackplus.com/" />
+<meta property="og:site_name" content="Boom Stack+" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","@id":"https://www.boomstackplus.com/#org","name":"Boom Stack+","url":"https://www.boomstackplus.com/","logo":"https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/445b4368-1798-4281-9c63-a23670338cd1.png","slogan":"Clean energy. No crash."},
+{"@type":"WebSite","@id":"https://www.boomstackplus.com/#site","url":"https://www.boomstackplus.com/","name":"Boom Stack+","publisher":{"@id":"https://www.boomstackplus.com/#org"}},
+{"@type":"Product","@id":"https://www.boomstackplus.com/#product","name":"Boom Stack+ Performance Energy — 12-Pack","description":"Premium sparkling citrus performance energy drink. Clean energy without the crash — natural green-coffee caffeine 150mg balanced with L-theanine 150mg, plus L-citrulline, L-tyrosine, taurine and electrolytes. ~20 calories, 4g sugar. Vegan, gluten free, non-GMO.","image":"https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/d0ecd0e5-8af9-4e2e-b53f-8b86d7bc16ae.jpg","brand":{"@id":"https://www.boomstackplus.com/#org"},"offers":{"@type":"Offer","price":"29.99","priceCurrency":"USD","availability":"https://schema.org/PreOrder","url":"https://yqae7a-et.myshopify.com/cart/49490381439191:1"}}
+]}
+</script>
+<link rel="icon" type="image/png" href="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/445b4368-1798-4281-9c63-a23670338cd1.png" />
+<style>
+  :root{
+    --red:#e01324;
+    --red-deep:#b00d1b;
+    --red-glow:#ff2a3c;
+    --ink:#0c0c0e;
+    --ink-2:#141417;
+    --paper:#faf7f7;
+    --muted:#a9a3a6;
+    --muted-dark:#6a646a;
+    --line:#25232a;
+    --radius:18px;
+    --shadow:0 22px 60px -24px rgba(224,19,36,.5);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Helvetica Neue",Arial,system-ui,sans-serif;
+    color:var(--paper);background:var(--ink);line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+  .btn{
+    display:inline-block;font-weight:800;letter-spacing:.02em;
+    padding:15px 30px;border-radius:999px;border:0;cursor:pointer;
+    background:linear-gradient(120deg,var(--red),var(--red-deep));
+    color:#fff;box-shadow:0 12px 28px -10px rgba(224,19,36,.9);
+    transition:transform .15s ease, box-shadow .15s ease;font-size:16px;
+    text-transform:uppercase;
+  }
+  .btn:hover{transform:translateY(-2px);box-shadow:0 18px 34px -12px rgba(255,42,60,1)}
+  .btn.ghost{background:transparent;border:1.5px solid #3a373f;color:var(--paper);box-shadow:none}
+  .btn.ghost:hover{border-color:var(--red-glow);color:var(--paper)}
+  .eyebrow{
+    text-transform:uppercase;letter-spacing:.3em;font-size:12px;font-weight:800;
+    color:var(--red-glow);
+  }
+
+  /* NAV */
+  header{position:sticky;top:0;z-index:50;background:rgba(12,12,14,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  nav{display:flex;align-items:center;justify-content:space-between;height:70px}
+  .logo{font-weight:900;font-style:italic;letter-spacing:-.02em;font-size:23px;color:#fff}
+  .logo b{color:var(--red-glow)}
+  .logo span{color:var(--red-glow)}
+  .logo-img{height:46px;width:auto;display:block;filter:drop-shadow(0 4px 12px rgba(224,19,36,.45))}
+  .foot-logo{height:52px;width:auto;display:block}
+  .nav-links{display:flex;gap:30px;font-weight:600;font-size:15px;color:var(--muted)}
+  .nav-links a:hover{color:var(--paper)}
+  @media(max-width:820px){.nav-links{display:none}}
+
+  /* HERO */
+  .hero{position:relative;overflow:hidden;background:
+     radial-gradient(1100px 620px at 78% -10%, rgba(224,19,36,.28), transparent 60%),
+     radial-gradient(900px 600px at 8% 20%, rgba(224,19,36,.12), transparent 55%);}
+  .hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:34px;align-items:center;padding:64px 0 76px}
+  @media(max-width:900px){.hero-grid{grid-template-columns:1fr;text-align:center;padding:44px 0 56px}}
+  .hero h1{font-size:clamp(42px,7.4vw,82px);line-height:.94;letter-spacing:-.03em;font-weight:900;margin:16px 0 10px;text-transform:uppercase;font-style:italic}
+  .hero h1 em{font-style:italic;background:linear-gradient(120deg,var(--red-glow),#ff7a2a);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .flavor-tag{display:inline-flex;align-items:center;gap:8px;font-weight:800;color:var(--paper);margin-top:8px;font-size:15px;letter-spacing:.02em}
+  .flavor-tag::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--red-glow);box-shadow:0 0 12px var(--red-glow)}
+  .lead{font-size:19px;color:var(--muted);max-width:520px;margin:18px auto 0}
+  @media(min-width:901px){.lead{margin-left:0}}
+  .cta-row{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
+  @media(max-width:900px){.cta-row{justify-content:center}}
+  .micro{font-size:13px;color:var(--muted);margin-top:16px;letter-spacing:.02em}
+  .hero-img{position:relative}
+  .hero-img img{width:100%;border-radius:22px;box-shadow:var(--shadow);object-fit:cover;max-height:640px}
+  .hero-badge{position:absolute;left:-10px;bottom:22px;background:var(--red);color:#fff;font-weight:900;
+    text-transform:uppercase;letter-spacing:.04em;font-size:13px;padding:12px 18px;border-radius:14px;
+    box-shadow:0 12px 30px -10px rgba(224,19,36,.9);transform:rotate(-4deg)}
+  @media(max-width:900px){.hero-badge{left:12px}}
+
+  /* SECTIONS */
+  section{padding:82px 0}
+  .section-head{max-width:700px;margin-bottom:44px}
+  .section-head h2{font-size:clamp(28px,4.6vw,46px);letter-spacing:-.02em;line-height:1.04;font-weight:900;margin:10px 0 12px;text-transform:uppercase;font-style:italic}
+  .section-head p{color:var(--muted);font-size:18px}
+  .alt-bg{background:linear-gradient(180deg,#141216,#0c0c0e)}
+
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  @media(max-width:860px){.cards{grid-template-columns:1fr}}
+  .cards.five{grid-template-columns:repeat(5,1fr)}
+  @media(max-width:900px){.cards.five{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:560px){.cards.five{grid-template-columns:1fr}}
+  .hero-benefit{border-color:var(--red-glow);box-shadow:0 0 0 1px var(--red-glow),0 18px 50px -30px rgba(224,19,36,.8)}
+  .proof-row{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:24px}
+  .proof-label{font-weight:700;color:var(--muted);font-size:14px}
+  .proof-tile{background:var(--ink-2);border:1px solid var(--line);border-radius:999px;padding:9px 15px;color:var(--paper);font-size:13px}
+  .proof-tile b{color:var(--red-glow)}
+  .price-line{color:var(--paper);font-weight:800;letter-spacing:.02em;margin:0 auto 18px;font-size:15px}
+  .crew-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  @media(max-width:820px){.crew-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:520px){.crew-grid{grid-template-columns:1fr}}
+  .crew-card{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--line)}
+  .crew-card img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top center;display:block}
+  .crew-card figcaption{position:absolute;left:10px;bottom:10px;background:var(--red);color:#fff;font-weight:800;font-size:11px;text-transform:uppercase;letter-spacing:.06em;padding:5px 10px;border-radius:8px}
+  .crew-card.feat figcaption{background:linear-gradient(120deg,var(--red),var(--red-deep))}
+
+  /* LIGHT MODE */
+  body.light{--ink:#faf7f5;--ink-2:#ffffff;--paper:#141216;--muted:#6a646a;--line:#e8e2e4}
+  body.light header{background:rgba(250,247,245,.85)}
+  body.light .facts{border-color:#141216}
+  body.light .signup{background:radial-gradient(720px 380px at 85% 0%, rgba(224,19,36,.18), transparent 60%),linear-gradient(120deg,#fff1f2,#faf7f5);border-color:var(--line)}
+  body.light .signup p{color:#6a646a}
+  body.light .form input{background:#fff;border-color:#e0d8da;color:#141216}
+  body.light .form input::placeholder{color:#a89ba0}
+  body.light .proof-tile{color:#141216}
+  body.light .taste, body.light .signup h2, body.light .signup .price-line{color:#141216}
+  body.light .mode-btn{color:#141216;border-color:#d8d0d2}
+  .mode-btn{border:1.5px solid var(--line);background:transparent;color:var(--paper);border-radius:999px;
+    padding:8px 14px;font-weight:800;cursor:pointer;font-size:14px}
+  .mode-btn:hover{border-color:var(--red-glow)}
+
+  /* SCROLLING BANNER */
+  .ticker{overflow:hidden;background:var(--red);color:#fff;border-block:1px solid rgba(0,0,0,.15)}
+  .ticker-track{display:flex;gap:0;white-space:nowrap;animation:tickmove 22s linear infinite;width:max-content}
+  .ticker span{display:inline-block;padding:11px 26px;font-weight:900;font-style:italic;text-transform:uppercase;letter-spacing:.08em;font-size:14px}
+  @keyframes tickmove{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+  /* VIDEO / FILM */
+  .film-wrap{display:grid;grid-template-columns:1fr 1.1fr;gap:40px;align-items:center}
+  @media(max-width:900px){.film-wrap{grid-template-columns:1fr}}
+  .film-player{position:relative;border-radius:22px;overflow:hidden;box-shadow:var(--shadow);max-width:420px;margin:0 auto}
+  .film-player video{width:100%;display:block;aspect-ratio:9/16;object-fit:cover;background:#000}
+
+  /* REEL (continuous slides) */
+  .reel{overflow:hidden;margin-top:38px}
+  .reel-track{display:flex;gap:14px;width:max-content;animation:reelmove 40s linear infinite}
+  .reel:hover .reel-track{animation-play-state:paused}
+  @keyframes reelmove{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  .reel video{height:380px;aspect-ratio:9/16;object-fit:cover;border-radius:16px;border:1px solid var(--line);display:block}
+  .reel-hint{color:var(--muted);font-size:13px;margin-top:12px;text-align:center}
+  .card{background:var(--ink-2);border:1px solid var(--line);border-radius:var(--radius);padding:28px;position:relative;overflow:hidden}
+  .card::after{content:"";position:absolute;inset:auto -40px -40px auto;width:120px;height:120px;border-radius:50%;background:radial-gradient(circle,rgba(224,19,36,.22),transparent 70%)}
+  .card .ic{width:48px;height:48px;border-radius:13px;display:grid;place-items:center;font-size:22px;
+    background:linear-gradient(120deg,rgba(224,19,36,.35),rgba(255,122,42,.22));margin-bottom:16px}
+  .card h3{font-size:20px;margin-bottom:8px;letter-spacing:-.01em;text-transform:uppercase;font-style:italic}
+  .card p{color:var(--muted);font-size:15px}
+  .card .mix{margin-top:14px;font-size:13px;color:var(--red-glow);font-weight:700;letter-spacing:.02em}
+
+  /* APPAREL */
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+  @media(max-width:860px){.split{grid-template-columns:1fr}}
+  .split img{border-radius:20px;box-shadow:var(--shadow)}
+
+  /* FACTS */
+  .facts-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center}
+  @media(max-width:860px){.facts-grid{grid-template-columns:1fr}}
+  .facts{background:#fff;color:#0c0c0e;border:2px solid #000;border-radius:14px;padding:24px;max-width:380px;width:100%}
+  .facts h4{font-size:20px;border-bottom:6px solid #000;padding-bottom:6px;margin-bottom:6px;text-transform:uppercase}
+  .facts .srv{font-size:13px;color:#555;border-bottom:1px solid #ddd;padding:6px 0}
+  .facts ul{list-style:none}
+  .facts li{display:flex;justify-content:space-between;border-bottom:1px solid #e6e6e6;padding:9px 0;font-size:15px}
+  .facts li b{font-weight:800}
+  .facts .foot{font-size:12px;color:#666;padding-top:8px}
+
+  .badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+  .cbadge{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:800;letter-spacing:.02em;
+    color:var(--paper);border:1px solid var(--line);background:var(--ink-2);border-radius:999px;padding:9px 15px}
+  .cbadge::before{content:"✓";color:var(--red-glow);font-weight:900}
+
+  /* SPECS */
+  .specs{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;text-align:center}
+  @media(max-width:760px){.specs{grid-template-columns:repeat(2,1fr)}}
+  .spec{padding:28px 14px;border-radius:var(--radius);background:var(--ink-2);border:1px solid var(--line)}
+  .spec .n{font-size:34px;font-weight:900;font-style:italic;letter-spacing:-.02em;background:linear-gradient(120deg,var(--red-glow),#ff7a2a);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .spec .l{color:var(--muted);font-size:14px;font-weight:600;margin-top:4px}
+
+  .can-shots{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:34px}
+  @media(max-width:760px){.can-shots{grid-template-columns:1fr}}
+  .can-shots img{border-radius:16px;box-shadow:0 16px 40px -24px rgba(224,19,36,.7);width:100%;object-fit:cover;aspect-ratio:3/4}
+
+  /* PRE-ORDER */
+  .signup{position:relative;overflow:hidden;background:
+     radial-gradient(720px 380px at 85% 0%, rgba(224,19,36,.35), transparent 60%),
+     linear-gradient(120deg,#1a0608,#0c0c0e);border:1px solid var(--line);
+     border-radius:26px;padding:58px 40px;text-align:center}
+  .signup h2{font-size:clamp(30px,4.8vw,46px);font-weight:900;letter-spacing:-.02em;text-transform:uppercase;font-style:italic}
+  .signup p{color:#d9c9cb;max-width:540px;margin:12px auto 26px;font-size:17px}
+  .form{display:flex;gap:10px;max-width:500px;margin:0 auto;flex-wrap:wrap;justify-content:center}
+  .form input{flex:1;min-width:230px;padding:15px 18px;border-radius:999px;border:1px solid #3a2023;background:#160809;color:#fff;font-size:16px}
+  .form input::placeholder{color:#8a6a6d}
+  .ok{margin-top:16px;font-weight:800;color:var(--red-glow);display:none}
+
+  footer{padding:44px 0;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+  .foot-row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px}
+  .disclaimer{color:var(--muted-dark);font-size:12px;margin-top:10px;max-width:760px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a href="#" aria-label="Boom Stack+ home"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/445b4368-1798-4281-9c63-a23670338cd1.png" class="logo-img" alt="Boom Stack+" /></a>
+      <div class="nav-links">
+        <a href="#why">Why it hits different</a>
+        <a href="#matrix">Stack Matrix</a>
+        <a href="#inside">What's inside</a>
+        <a href="#gear">Gear</a>
+        <a href="#film">Film</a>
+        <a href="#crew">Crew</a>
+        <a href="blog/index.html">Blog</a>
+      </div>
+      <div style="display:flex;gap:10px;align-items:center">
+        <button class="mode-btn" id="modeBtn" onclick="toggleMode()" aria-label="Toggle light/dark mode">☀︎</button>
+        <a href="#preorder" class="btn">Pre-order</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- SCROLLING BANNER -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track" id="tickerTrack">
+    <span>⚡ Clean Energy. No Crash.</span><span>🍋 Sparkling Citrus</span><span>🚀 Powered by the Impulso Matrix™</span><span>💥 Pre-Order Now — Make the List</span><span>⚡ Clean Energy. No Crash.</span><span>🍋 Sparkling Citrus</span><span>🚀 Powered by the Impulso Matrix™</span><span>💥 Pre-Order Now — Make the List</span>
+  </div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow">Performance Energy</div>
+        <h1>Clean energy.<br><em>No crash.</em></h1>
+        <div class="flavor-tag">Sparkling Citrus &middot; Powered by the Impulso Matrix&trade;</div>
+        <p class="lead">Real, sustained energy — no jitters, no crash, no candy-sweet aftertaste. Sparkling citrus that tastes great first, with focus and hydration to back it up.</p>
+        <div class="cta-row">
+          <a href="#preorder" class="btn">Pre-order now</a>
+          <a href="#matrix" class="btn ghost">See what's inside</a>
+        </div>
+        <div class="micro">12 oz &middot; ~20 calories &middot; 4g sugar &middot; 150mg natural caffeine</div>
+      </div>
+      <div class="hero-img">
+        <img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/bec860d8-cd98-4ff9-879d-08394364fee1.jpg" alt="Boom Stack+ athlete in branded apparel holding the red can" />
+        <div class="hero-badge">Make the list</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WHY -->
+<section id="why">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">The idea</div>
+      <h2>Switched on — not strung out.</h2>
+      <p>Boom Stack+ isn't a harsh pre-workout and it isn't a heavy functional beverage. It's the drink you reach for because it tastes incredible — with real energy, focus, and subtle pump as the quiet backup.</p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="ic">⚡</div>
+        <h3>Smooth energy</h3>
+        <p>An immediate but even lift from natural green-coffee caffeine, balanced with L-theanine — no harsh spike, no crash.</p>
+      </div>
+      <div class="card">
+        <div class="ic">🎯</div>
+        <h3>Sharper focus</h3>
+        <p>L-theanine and L-tyrosine support mental clarity and productivity so you feel dialed in, not wired.</p>
+      </div>
+      <div class="card">
+        <div class="ic">🔥</div>
+        <h3>Subtle pump &amp; support</h3>
+        <p>L-citrulline, taurine and electrolytes add light circulation and endurance support — that "switched on" feel, minus the aggression.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STACK MATRIX -->
+<section id="matrix" class="alt-bg">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Powered by the Impulso Matrix&trade;</div>
+      <h2>Energy you feel — focus &amp; hydration to back it up.</h2>
+      <p>One clean lift, dialed in with natural caffeine and L-theanine so you feel switched on without the spike or the crash.</p>
+    </div>
+    <div class="cards">
+      <div class="card hero-benefit">
+        <div class="ic">⚡</div>
+        <h3>Clean energy — no crash</h3>
+        <p>Natural green-coffee caffeine balanced with L-theanine for a smooth, even lift that doesn't spike or drop off.</p>
+        <div class="mix">Natural Caffeine 150mg · L-Theanine 150mg</div>
+      </div>
+      <div class="card">
+        <div class="ic">🎯</div>
+        <h3>Focus</h3>
+        <p>Calm mental clarity you can stay locked into — dialed in, not wired.</p>
+        <div class="mix">L-Theanine 150mg · L-Tyrosine 500mg</div>
+      </div>
+      <div class="card">
+        <div class="ic">💧</div>
+        <h3>Hydration</h3>
+        <p>Electrolytes to keep you balanced and switched on, sip after sip.</p>
+        <div class="mix">Potassium 200mg · Sodium 75mg</div>
+      </div>
+    </div>
+    <div class="proof-row">
+      <span class="proof-label">Also in every can:</span>
+      <span class="proof-tile"><b>Recovery</b> — Taurine 750mg</span>
+      <span class="proof-tile"><b>Endurance</b> — L-Citrulline 1,500mg</span>
+    </div>
+  </div>
+</section>
+
+<!-- INSIDE / FACTS -->
+<section id="inside">
+  <div class="wrap">
+    <div class="facts-grid">
+      <div>
+        <div class="eyebrow">What's inside</div>
+        <h2 style="font-size:clamp(28px,4.6vw,46px);letter-spacing:-.02em;line-height:1.04;font-weight:900;margin:10px 0 12px;text-transform:uppercase;font-style:italic">Dialed-in actives, kept clean.</h2>
+        <p style="color:var(--muted);font-size:18px;max-width:520px">Active levels were tuned for better taste, a cleaner finish, and easy everyday drinking — functional enough to feel it, light enough to enjoy daily. Sweetened with a touch of cane sugar and a monk fruit / stevia blend.</p>
+        <div class="badges">
+          <span class="cbadge">Whole Foods Compliant</span>
+          <span class="cbadge">Vegan</span>
+          <span class="cbadge">Gluten Free</span>
+          <span class="cbadge">Non-GMO</span>
+        </div>
+      </div>
+      <div class="facts">
+        <h4>Functional Stack</h4>
+        <div class="srv">Per 12 oz can &middot; targets subject to optimization</div>
+        <ul>
+          <li><span>Natural Caffeine (Green Coffee)</span><b>150 mg</b></li>
+          <li><span>L-Theanine</span><b>150 mg</b></li>
+          <li><span>L-Citrulline</span><b>1,500 mg</b></li>
+          <li><span>L-Tyrosine</span><b>500 mg</b></li>
+          <li><span>Taurine</span><b>750 mg</b></li>
+          <li><span>Potassium Citrate</span><b>200 mg</b></li>
+          <li><span>Sodium</span><b>75 mg</b></li>
+        </ul>
+        <div class="foot">~4g sugar (cane sugar) · monk fruit / stevia blend · ~20 calories.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GEAR / APPAREL -->
+<section id="gear" class="alt-bg">
+  <div class="wrap">
+    <div class="split">
+      <img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/c9c33b2f-2f1a-41ad-b983-a99a23a83919.jpg" alt="Boom Stack+ branded athletic apparel" />
+      <div>
+        <div class="eyebrow">Join the pack</div>
+        <h2 style="font-size:clamp(28px,4.6vw,46px);letter-spacing:-.02em;line-height:1.04;font-weight:900;margin:10px 0 12px;text-transform:uppercase;font-style:italic">Wear the boom.</h2>
+        <p style="color:var(--muted);font-size:18px;max-width:520px">Boom Stack+ apparel carries the same explosive identity as the can — white hero, black everyday, red statement. Gear drops alongside the first cans.</p>
+        <div class="cta-row" style="margin-top:24px">
+          <a href="https://yqae7a-et.myshopify.com/collections/wear-the-boom-gear" target="_blank" rel="noopener" class="btn">Shop the gear</a>
+          <a href="#preorder" class="btn ghost">Get on the list</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FILM -->
+<section id="film" class="alt-bg">
+  <div class="wrap">
+    <div class="film-wrap">
+      <div>
+        <div class="eyebrow">The film</div>
+        <h2 style="font-size:clamp(28px,4.6vw,46px);letter-spacing:-.02em;line-height:1.04;font-weight:900;margin:10px 0 12px;text-transform:uppercase;font-style:italic">See the boom.</h2>
+        <p style="color:var(--muted);font-size:18px;max-width:480px">Twenty seconds of clean energy — the crew, the can, and the promise. Sound on. 🔊</p>
+        <div class="cta-row" style="margin-top:24px">
+          <a href="#preorder" class="btn">Pre-order now</a>
+        </div>
+      </div>
+      <div class="film-player">
+        <video src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/4ef005d3-d3e2-41eb-8caa-2ee3cc824cf9.mp4" controls playsinline preload="metadata" poster="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/d0ecd0e5-8af9-4e2e-b53f-8b86d7bc16ae.jpg"></video>
+      </div>
+    </div>
+    <div class="reel" aria-label="Boom Stack+ athlete clips">
+      <div class="reel-track" id="reelTrack">
+        <video src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/02e8d459-da9e-43c2-a11c-175df648d999.mp4" autoplay muted loop playsinline></video>
+        <video src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/7205da35-9885-453f-9443-40b84fdedf00.mp4" autoplay muted loop playsinline></video>
+        <video src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/24dc714f-43a3-4a87-a9d5-14f4eb4d3578.mp4" autoplay muted loop playsinline></video>
+        <video src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/fbcc94cd-6465-4f5b-bb58-e991ac45b7da.mp4" autoplay muted loop playsinline></video>
+        <video src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/3e937bf3-0851-4f50-b9a4-6d0882a3bf6a.mp4" autoplay muted loop playsinline></video>
+        <video src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/99d050cd-e74e-401f-a32b-a90530ed6aef.mp4" autoplay muted loop playsinline></video>
+        <video src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/4543439a-bfe0-4670-886e-03880252910a.mp4" autoplay muted loop playsinline></video>
+        <video src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/2a00b275-cdeb-4385-b76f-cb33b95261e2.mp4" autoplay muted loop playsinline></video>
+      </div>
+      <div class="reel-hint">The crew in motion — hover to pause.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CREW -->
+<section id="crew">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">The crew</div>
+      <h2>Fueled by the pack.</h2>
+      <p>The athletes who run on Boom Stack+ — from the track to the rack.</p>
+    </div>
+    <div class="crew-grid">
+      <figure class="crew-card feat"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/09c2622f-4fbe-4ef2-884f-05260d03d10e.jpg" alt="Track athlete in Boom Stack+ gear" /><figcaption>Track</figcaption></figure>
+      <figure class="crew-card feat"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/9439337f-c72d-49c5-b3d0-2a4b9d282428.jpg" alt="Mike in Boom Stack+ gear" /><figcaption>Strength</figcaption></figure>
+      <figure class="crew-card feat"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/31350863-1b8b-474e-831e-2545b2ee0828.jpg" alt="Liz in Boom Stack+ gear" /><figcaption>Training</figcaption></figure>
+      <figure class="crew-card"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/d270e107-ccc7-4ca7-9724-c69ca76b8be9.jpg" alt="Boom Stack+ athlete" /><figcaption>Power</figcaption></figure>
+      <figure class="crew-card"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/9a177fa2-f4d3-4231-9e6a-9953ec7013da.jpg" alt="Boom Stack+ athlete" /><figcaption>Combat</figcaption></figure>
+      <figure class="crew-card"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/3b79e705-ebc5-411a-8252-ef12152e77c9.jpg" alt="Boom Stack+ athlete" /><figcaption>Everyday</figcaption></figure>
+      <figure class="crew-card"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/32f1ae9a-624a-4ff2-b3e5-b16eedbd9d9f.jpg" alt="Boom Stack+ athlete" /><figcaption>Performance</figcaption></figure>
+      <figure class="crew-card"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/55e3bcd0-5572-41d2-b546-309219a0f75f.jpg" alt="Boom Stack+ athlete" /><figcaption>Endurance</figcaption></figure>
+      <figure class="crew-card"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/1424d39b-8ff4-43d9-9dca-c4911e9ed71f.jpg" alt="Boom Stack+ athlete" /><figcaption>Recovery</figcaption></figure>
+      <figure class="crew-card"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/48800496-f67e-4115-b7c3-9f275a724d67.jpg" alt="Boom Stack+ athlete" /><figcaption>Focus</figcaption></figure>
+      <figure class="crew-card"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/5168af9f-b5b5-4906-894b-78c02abbf223.jpg" alt="Boom Stack+ athlete" /><figcaption>Drive</figcaption></figure>
+      <figure class="crew-card"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/10d2e5e9-f7b0-4e8a-bfbf-56c3e860b8a6.jpg" alt="Boom Stack+ athlete" /><figcaption>Hustle</figcaption></figure>
+      <figure class="crew-card"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/9b7fd20e-4e62-46df-9f2b-06fed881f603.jpg" alt="Boom Stack+ athlete" /><figcaption>Balance</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- THE CAN / SPECS -->
+<section id="can">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">The can</div>
+      <h2>Crisp, refreshing, everyday.</h2>
+    </div>
+    <div class="specs">
+      <div class="spec"><div class="n">12 oz</div><div class="l">Sleek can</div></div>
+      <div class="spec"><div class="n">~20</div><div class="l">Calories</div></div>
+      <div class="spec"><div class="n">4 g</div><div class="l">Sugar</div></div>
+      <div class="spec"><div class="n">150 mg</div><div class="l">Natural caffeine</div></div>
+    </div>
+    <div class="can-shots">
+      <img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/d0ecd0e5-8af9-4e2e-b53f-8b86d7bc16ae.jpg" alt="Boom Stack+ finalized can — Performance Energy" />
+      <img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/87f3df96-13b8-4d61-8d3b-90502f8c85ac.jpg" alt="Boom Stack+ athlete with the can" />
+      <img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/bec860d8-cd98-4ff9-879d-08394364fee1.jpg" alt="Boom Stack+ track athlete with the can" />
+    </div>
+  </div>
+</section>
+
+<!-- PRE-ORDER -->
+<section id="preorder">
+  <div class="wrap">
+    <div class="signup">
+      <div class="eyebrow">Pre-order now</div>
+      <h2>Make the list. Get the gift.</h2>
+      <p>Founding members lock in first dibs — plus an exclusive launch-flavor can and early access. No launch discounts; refer friends up the list to unlock free packs.</p>
+      <div class="price-line">$29.99 / 12-pack &middot; Subscribe &amp; Save 10–15% &middot; free shipping</div>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <a class="btn" href="https://yqae7a-et.myshopify.com/cart/49490381439191:1">Pre-order now — $29.99</a>
+        <a class="btn ghost" href="https://yqae7a-et.myshopify.com/collections/wear-the-boom-gear">Shop the gear</a>
+      </div>
+      <div class="ok" id="ok" style="display:block;margin-top:14px">Founding members get an exclusive launch-flavor can + early access. ⚡</div>
+      <div style="margin-top:18px"><a class="btn ghost" href="https://yqae7a-et.myshopify.com/products/boom-stack-performance-energy-12-pack-pre-order" target="_blank" rel="noopener">Or pre-order the 12-pack now →</a></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-row">
+      <img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3CbvHWLUIA0BHaMXW2XrgjMcXCp/445b4368-1798-4281-9c63-a23670338cd1.png" class="foot-logo" alt="Boom Stack+" />
+      <span class="eyebrow">Performance Energy · Switched On</span>
+      <div>&copy; <span id="yr"></span> Boom Stack+. All rights reserved.</div>
+    </div>
+    <p class="disclaimer">Formulation targets are subject to optimization. Certifications noted as of product declaration (Whole Foods compliant as of 5/27/2026). These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  // light/dark mode
+  function toggleMode(){
+    var light = document.body.classList.toggle('light');
+    document.getElementById('modeBtn').textContent = light ? '☾' : '☀︎';
+  }
+  // duplicate reel content for a seamless continuous loop
+  (function(){
+    var track = document.getElementById('reelTrack');
+    if (track) track.innerHTML += track.innerHTML;
+  })();
+  function joinWaitlist(e){
+    e.preventDefault();
+    var form = e.target;
+    form.style.display = 'none';
+    document.getElementById('ok').style.display = 'block';
+    return false;
+  }
+</script>
+</body>
+</html>
